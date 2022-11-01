@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- start of header  -->
+    <header>
+        <nav class="navbar navbar-expand-lg navdiv">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <a class="navbar-brand text-center logo" href="#">
+                    <img src="./imgs/logo.png" alt="logo" width="70px" height="65px">
+                    <span class="px-1 logotext">
+                        <h3>The Cafe</h3>
+                        <p>Coffee Shop</p>
+                    </span>
+                </a>
+                <button class="d-sm-block d-lg-none order-btn col-3" type="submit">Order Now</button>
+                <div class="collapse navbar-collapse navdiv px-5" id="navbarNav">
+                    <ul class="navbar-nav px-5 position-relative">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 navitem position-relative px-5" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link fs-4 navitem position-relative px-5" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link fs-4 navitem position-relative px-5" href="#">Products</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link fs-4 navitem position-relative px-5" href="#">Promotions</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="d-none d-sm-none d-lg-block order-btn" type="submit">Order Now</button>
+            </div>
+            
+          </nav>
+    </header>
+
+    <!-- start of banner  -->
+    <section id="banner">
+        <div class="container-fluid">
+            <div class="row banner">
+                <div class="col-lg-6 banner-text">
+                    <div>
+                        <h1>The Best Coffee Shop in Town</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sapiente, nesciunt vero explicabo sequi, vitae ea blanditiis veniam harum dignissimos quibusdam nisi deserunt, doloribus et! Nihil dolor nobis eveniet tempore?</p>
+                    </div>
+                    <div class="btns">
+                        <button type="button" class="order-btn">Order Now</button>
+                        <button type="button" class="seemenu-btn">See Menu</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 img-banner d-flex">
+                    <div class="img-container">
+                        <img src="imgs/image 1.png" class="img1" alt="">
+                        <img src="imgs/image 2.png" class="img2" alt="">
+                        <img src="imgs/image 3.png" class="img3" alt="">
+                        <img src="imgs/image 3.png" class="img4" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start of branding -->
+    <section>
+        <div class="container-fluid branding">
+            <div class="row">
+                <div class="col-lg-8 branding-text">
+                    <div class="a">
+                        <h3>Welcome to the cafe & bakery</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem itaque ut voluptate dignissimos consequuntur repellendus ipsa? Soluta porro modi quae nam a cumque accusamus laudantium! Nesciunt excepturi molestiae ad magnam!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 imgcontainer">
+                    <img src="imgs/image 4.png" alt="" class="img-fluid branding-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel  -->
+    <section>
+        <div class="container-fluid carouselControl g-0 px-0">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="fs-1 py-3 text-white">Our Menu</h3>
+                </div>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide g-0" data-bs-ride="true">
+                <div class="carousel-indicators px-5" id="myCarousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carouselControl">
+                  <div class="carousel-item active positionControl">
+                    <div class="row carouselinnerControl">
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item positionControl">
+                    <div class="row carouselinnerControl">
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item positionControl">
+                    <div class="row carouselinnerControl">
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center position-relative">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="imgs/image 1.png" class="card-img-top cardIMG border-0" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">EXPRESSO --  12$</h5>
+                                  <p class="card-text">(caffeinated dreams espresso blend)
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+        <div class="container-fluid row footer">
+            <div class="col-8 text-center py-5 text-white">
+                <h3 class="fs-1">Address</h3>
+                <p class="fs-3 px-5">No.330, Ahlone Road, Dagon Township, Yangon International Hotel Compound, Yangon No 40, Nga Condo, Nawaday St, Yangon 446-466, Lower Kyeemyint Daing Road, Kyeemyint Daing Township, Yangon
+                </p>
+            </div>
+            <div class="col-4 text-center py-5 text-white">
+                <h3 class="fs-1">Contact Us</h3>
+                <p class="fs-3 px-5">Ph No. : 09-405044455
+                    Email : C9cafeandbakery@gmail.com
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
