@@ -35,7 +35,7 @@ html,body{
     color: #6C3408;
 }
 
-.nav-link::before{
+.navitem::before{
     content: "";
     width: 8px;
     height: 8px;
@@ -51,7 +51,7 @@ html,body{
     transition: all .5s;
 }
 
-.nav-link:hover::before{
+.navitem:hover::before{
     width: 50%;
     height: 8px;
     border-radius: 10px;
@@ -318,14 +318,11 @@ html,body{
     height: auto;
 }
 
-.card{
-    border-radius: 0px;
-}
+
 
 .cardIMG{
     background: rgb(242,228,217);
     background: linear-gradient(0deg, rgba(242,228,217,1) 44%, rgba(32,16,2,1) 44%, rgba(32,16,2,1) 75%);
-    border-radius: 0px;
 }
 
 .card-body{
