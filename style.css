@@ -318,9 +318,14 @@ html,body{
     height: auto;
 }
 
+.card{
+    border-radius: 0px;
+}
+
 .cardIMG{
     background: rgb(242,228,217);
     background: linear-gradient(0deg, rgba(242,228,217,1) 44%, rgba(32,16,2,1) 44%, rgba(32,16,2,1) 75%);
+    border-radius: 0px;
 }
 
 .card-body{
@@ -342,4 +347,8 @@ html,body{
 
 .footer{
     background-color: #090909;
+}
+
+.card-container{
+    background-color: #201002 ;
 }
